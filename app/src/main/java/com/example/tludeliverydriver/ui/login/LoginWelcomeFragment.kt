@@ -8,7 +8,9 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.example.tludeliverydriver.R
 import com.example.tludeliverydriver.databinding.FragmentLoginWelcomeBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class LoginWelcomeFragment : Fragment() {
 
     private lateinit var binding: FragmentLoginWelcomeBinding
